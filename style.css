@@ -78,6 +78,7 @@ nav ul li a:hover::after{
 /*--------------GAMES--------------------------------------*/
 
 .sub-title{
+    padding-top: 50px;
     font-size: 45px;
     font-weight: 600;
     color: #fff;
@@ -220,4 +221,58 @@ nav ul li a:hover::after{
 
 .contact-left{
     flex-basis: 35%;
+}
+
+
+.contact-left p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-left p i{
+    color: #FCEE09;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #FF003C;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #FCEE09;
+    transform: translateY(-5px);
+}
+
+
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+/*--------------CSS FOR SMALL SCREEN--------------------------------------*/
+
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(images/small-panam.png);
+    }
+
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size: 30px;
+    }
 }
