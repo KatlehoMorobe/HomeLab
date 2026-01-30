@@ -264,6 +264,20 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 
+/*--------------DISPLAY ALL CAPTURES--------------------------------------*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /*--------------CSS FOR SMALL SCREEN--------------------------------------*/
 
 nav .fa-solid{
