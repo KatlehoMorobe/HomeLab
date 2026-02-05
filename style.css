@@ -30,6 +30,30 @@ body{
     background-position: center;
 }
 
+#header-3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/img-HomeLab/photo122.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#header-4{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/img-HomeLab/photo181.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#header-5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/img-HomeLab/photo11.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .container{
     padding: 10px 10%;
 }
