@@ -321,6 +321,29 @@ nav ul li a:hover::after{
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
+    cursor: pointer;
+    transition: 400ms;
+    filter: grayscale(1);
+}
+
+.photo img:hover{
+    filter: none;
+    transform: scale(1.03);
+}
+
+/*--------------FAVOURITES--------------------------------------*/
+
+.fav-photos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 4px 7px 7px 0px #FF003C;
+    transition: 400ms;
+}
+
+.fav-photos img:hover{
+    transform: scale(1.03);
 }
 
 /*--------------CSS FOR SMALL SCREEN--------------------------------------*/
@@ -371,5 +394,9 @@ nav .fa-solid{
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+
+    .photo-gallery{
+        flex-direction: column;
     }
 }
