@@ -346,6 +346,12 @@ nav ul li a:hover::after{
     transform: scale(1.03);
 }
 
+/*--------------PERSONAL--------------------------------------*/
+
+.description{
+    
+}
+
 /*--------------CSS FOR SMALL SCREEN--------------------------------------*/
 
 nav .fa-solid{
