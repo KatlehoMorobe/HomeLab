@@ -338,7 +338,6 @@ nav ul li a:hover::after{
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
-    box-shadow: 4px 7px 7px 0px #FF003C;
     transition: 400ms;
 }
 
@@ -348,10 +347,22 @@ nav ul li a:hover::after{
 
 /*--------------PERSONAL--------------------------------------*/
 
+.personal-gallery{
+    max-width: 1224px;
+    width: 90%;
+    margin-left: 12%;
+}
+
+.ps-gallery{
+    grid-column: auto;
+    padding: 10px;
+}
+
 .ps-photos{
     position: relative;
     width: 90%;
-    max-width: 800px;
+    max-width: 90%;
+    padding: 10px;
     transition: 400ms;
 }
 
